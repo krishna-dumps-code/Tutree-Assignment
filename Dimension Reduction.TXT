@@ -1,0 +1,15 @@
+Question: Explain dimension reduction in machine learning.
+
+Answer:
+Having the right dataset is the most important aspect of a Machine Learning problem. Demensionality Reduction in ML is the technique to reduce the number 
+of dependent variables in a dataset in such  way that that the nature and the essense of the data remains intact or no relevant information gets lost.
+Having lots and lots of input variables sometimes make the problem very complex to deal with, often referred to as the Curse of Dimensinality and 
+can furthur lead to overfitting the model, extra memory usage and longer training time. Therefore, it is often a better choice to reduce the number 
+of input features for cleaner and better understanding of data and also better generalization of the model.
+Dimensionality Reduction is performed on data prior to modeling. It should be performed after data cleaning and scaling and before training a predictive model.
+
+Dimensionality Reduction can be performed using techniques such as:
+1. Dimensionality Reduction Algorithms like PCA, LDA which reduces the features by projecting the features 
+   in higher dimension space into a new lower dimension space.
+2. Feature Selection:- There are different types of supervised or unsupervised feature selection techniques which can be used to select features which are of
+   highest importance to predict the target variable. Some of them are- Statistical Testing, Feature Importance, Correlation using Heatmaps etc.
